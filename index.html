@@ -6,27 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sultan</title>
     <link rel="stylesheet" href="./style/bg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="menu">
-        <div class="menu__logo">
-          <h1>Sultan Razin</h1>
-        </div>
-        <div class="menu__buttons">
-          <div class="menu__button" onclick='location.href="./index.html";'> Home</div>
-          <div class="menu__button" onclick='location.href="./pages/summary.html";'>Summary</div>
-          <div class="menu__button" onclick='location.href="./pages/analysite.html";'> Analysite</div>
-          <div class="menu__button" onclick='location.href="./pages/narcissist.html";'> Narcissist</div>
-        </div>
+  <div class="header__background"></div>
+    <nav class="menu-container">
+      <!-- burger menu -->
+      <input type="checkbox" aria-label="Toggle menu" />
+      <span></span>
+      <span></span>
+      <span></span>
+    
+      
+      <!-- menu items -->
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="#home" onclick='location.href="./pages/summary.html";'>
+              Home
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#signup" onclick='location.href="./pages/summary.html";'>
+              Summary
+            </a>
+          </li>
+          <li>
+            <a href="#login" onclick='location.href="./pages/analysite.html";'>
+              Analysite
+            </a>
+          </li>
+          <li>
+            <a href="#login" onclick='location.href="./pages/narcissist.html";'>
+              Narcissist
+            </a>
+          </li>
+        </ul>
       </div>
-      <div class="header">
-        <div class="header__background"></div>
-        <div class="header__title"> 
-          <h1>Welcome</h1>
-          <p>This is a personal portfolio webpage where I'll host my side <br> projects and college assignments.</p>
-        </div>
-      </div>
-</body>
+    </nav>
+    <div class="glass"> 
+    <h1 class="entry">Welcome,</h1>
+    <p class="description">This is a personal portfolio webpage where I'll host my side <br> projects and college assignments.</p>
+  </div>
+  
+  </body>
 </html>
 
 

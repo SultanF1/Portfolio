@@ -5,32 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/bg.css">
-    <title>Sultan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>/</title>
 </head>
 <body>
-    <div class="menu">
-        <div class="menu__logo">
-            <h1>Summary</h1>
-        </div>
-        <div class="menu__buttons">
-            <div class="menu__button" onclick='location.href="/index.html";'> Home</div>
-          <div class="menu__button" onclick='location.href="./summary.html";'>Summary</div>
-          <div class="menu__button" onclick='location.href="./analysite.html";'> Analysite</div>
-          <div class="menu__button" onclick='location.href="./narcissist.html";'> Narcissist</div>
-        </div>
-      </div>
-      <div class="header">
-        <div class="header__background"></div>
-        <div class="header__title"> 
-            <div style="height:450px;"><br></div>
-          <p>A web app that generates a summary for a youtube video that's provided by the user, it uses a CNN model to summarize the transcript.</p>
+  <div class="header__background"></div>
+    
+            
+
+            <nav class="menu-container">
+              <!-- burger menu -->
+              <input type="checkbox" aria-label="Toggle menu" />
+              <span></span>
+              <span></span>
+              <span></span>
+            
+              
+              <!-- menu items -->
+              <div class="menu">
+                <ul>
+                  <li>
+                    <a href="#home" onclick='location.href="../index.html";'>
+                      Home
+                    </a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="#signup" onclick='location.href="./summary.html";'>
+                      Summary
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#login" onclick='location.href="./analysite.html";'>
+                      Analysite
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#login" onclick='location.href="./narcissist.html";'>
+                      Narcissist
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            
+      
+      
+            <div class="glass">
+            <h1 class="entry">Summary</h1>
+          <p class="description">A web app that generates a summary for a youtube video that's provided by the user, it uses a CNN model to summarize the transcript.</p>
+          </div>
           <br>
-          <img src="/pictures/summary.png" alt="" height="450px">
+          <img class = "image" src="/pictures/summary.png" alt="" width="65%">
           <br><br><br>
-          <div class="menu__button" style="width: 10%; display:flex; justify-content:center;" onclick="window.open('https://youtube-video-summarizer-p.herokuapp.com','mywindow');" style="cursor: pointer;"> Visit</div>
-          <br>
-          <div class="menu__button" style="width: 5%; display:flex; justify-content:center;" onclick="window.open('https://github.com/SultanF1/video-summarizer','mywindow');" style="cursor: pointer;"> Code</div>
+          <div class="center">
+          <button class="custom-btn btn-16" onclick="window.open('https://youtube-video-summarizer-p.herokuapp.com','mywindow');" style="cursor: pointer;">Visit</button>
+          </div>
+          <br></br>
+          <div class="center">
+          <button class="custom-btn2 btn-16" onclick="window.open('https://github.com/SultanF1/video-summarizer','mywindow');" style="cursor: pointer;"><i class="fa fa-github" style="font-size:36px"></i> code</button>
         </div>
-      </div>
+        </div>
+      
 </body>
 </html>
