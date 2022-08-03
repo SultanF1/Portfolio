@@ -248,7 +248,7 @@ body {
 
 .entry{
   color: white;
-  font-size: 4vw;
+  font-size: 2vw;
   display: flex;
   justify-content: center;
   text-shadow: 1px 1px 2px grey, 0 0 1px grey, 0 0 0.2px grey;
@@ -258,7 +258,7 @@ body {
 
 .description{
   color: white;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
   display: flex;
   justify-content: center;
   margin: 1em 1em 1.6em 1em;
@@ -267,7 +267,7 @@ body {
 }
 .description2{
   color: white;
-  font-size: 2.5vw;
+  font-size: 1.5vw;
  
   list-style-position: inside;
   text-shadow: 1px 1px 2px grey, 0 0 1px grey, 0 0 0.2px grey;
